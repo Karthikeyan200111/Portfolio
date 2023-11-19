@@ -3,5 +3,8 @@
 		{
 			"path": ".."
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Browny Free Website Template - Free-CSS.com"
+	}
 }

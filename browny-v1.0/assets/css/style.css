@@ -111,9 +111,9 @@ nav.navbar.bootsnav.no-background {
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color: #000000;
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.2);
 }
 
 /*.navbar-brand*/
@@ -229,7 +229,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
+    background: #000000;
     border:1px solid #b636ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
@@ -390,7 +390,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-progress-txt h3 {
     width: 10%;
-    color: #a606c3;
+    color: #000000;
     position: relative;
     top: 6px;
     left: 20px;
@@ -721,10 +721,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
+    background: #000000;
     border: 1px solid #b636ff;
     cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
      -webkit-transition: .5s; 
     -moz-transition:.5s; 
     -ms-transition:.5s; 
@@ -856,4 +856,141 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
+
+.projectcontainer{
+    display: flex;
+   flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-evenly;
+    
+}
+
+.cardcontainer{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    
+    transition: 0.3s;
+}
+.cardcontainer:hover{
+    box-shadow: 0 0 45px gray;
+    
+}
+.photo{
+    height: 300px;
+    width: 100%;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+}
+.txt1{
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.content{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -33px;
+}
+.photos{
+    width: 90px;
+    height: 30px;
+    background-color: #E74C3C;
+    color: white;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.txt4{
+    font-size:27px;
+    position: relative;
+    top: 33px;
+}
+.txt5{
+    position: relative;
+    top: 18px;
+    color: #E74C3C;
+    font-size: 23px;
+}
+
+.txt2{
+    position: relative;
+    top: 40px;  
+    color: #000;
+    text-align: justify;
+
+}
+
+.cardcontainer:hover > .photo{
+    height: 200px;
+    animation: move1 0.5s ease both;
+    color: #000;
+}
+@keyframes move1{
+    0%{height: 300px}
+    100%{height: 200px}
+}
+.cardcontainer:hover > .content{
+    height: 200px;
+}
+.footer{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: relative;
+    top: -15px;
+}
+.btn{
+    position: relative;
+    top: 20px;
+}
+#heart{
+    cursor: pointer;
+}
+
+.fa-gratipay{
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.fa-gratipay:hover{
+    color: #E74C3C;
+}
+.txt3{
+    color: gray;
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+}
+
+.fa-clock, .fa-comments{
+    margin-right: 7px;
+}
+#readmore{
+    cursor: pointer;
+    color: #fff0f0;
+    border: #b636ff;
+    border-style: solid;
+    padding: 9px;
+    background-color: #000;
+}
+#readmore:hover{
+    background-color:#b636ff;
+    color: white;
+    border: #000;
+    border-style: solid;
+    padding: 8px;
+}
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}

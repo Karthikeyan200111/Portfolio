@@ -10,8 +10,9 @@ document.getElementById('contactform1').addEventListener('submit',  function(eve
 	})
 	.then(function(response) {
 	  if (response.ok) {
-       form.reset();
+       
 		alert("Success! Your message has been sent.");
+		form.reset();
 		
         
 	  } else {

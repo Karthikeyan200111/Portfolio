@@ -23,6 +23,4 @@ document.getElementById('contactform1').addEventListener('submit',  function(eve
 	});
   });
 
-  function resetForm() {
-    document.getElementById('contactform1').reset();
-  }
+ 

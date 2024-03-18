@@ -22,3 +22,7 @@ document.getElementById('contactform1').addEventListener('submit',  function(eve
 	  alert('An unexpected error occurred. Please try again later.');
 	});
   });
+
+  function resetForm() {
+    document.getElementById('contactform1').reset();
+  }

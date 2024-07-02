@@ -44,7 +44,21 @@
 }/*max-width:991px*/
 
 @media screen and (max-width:768px){
-    
+    .row{
+		padding: 20px;
+	}
+	.totalContainer{
+		display: flex;
+		flex-direction: column;
+		gap:50px;
+		padding: 20px;
+	}
+	.projectcontainer{
+		display: flex;
+	   flex-wrap: wrap;
+	  align-items: center;
+	 gap:20px	
+	}
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){
@@ -58,6 +72,8 @@
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
+
+	
 
 }/*max-width:767px*/
 
@@ -75,6 +91,90 @@
 
 @media screen and (max-width: 540px){
 	.subscribe-title h2 {font-size: 24px;}
+	.totalContainer{
+		display: flex;
+		flex-direction: column;
+		gap:50px;
+		padding: 20px;
+	}
+	.projectcontainer{
+		display: flex;
+	   flex-wrap: wrap;
+	  align-items: center;
+	 gap:20px	
+	}
+	.cardcontainer{
+		width: auto;
+		height: auto;
+		background-color: rgb(0, 0, 0);
+		color: white;
+		
+		transition: 0.3s;
+		 border-style: solid;
+	  border-color: #000;
+	  border-radius: 10px;
+	  padding: 5px;
+	  margin-top: 10px;
+	 
+	}
+	.cardcontainer > .photo{
+		height: 200px;
+		animation: move1 0.5s ease both;
+		color: #000;
+	}
+	.content>p{
+		font-size: 20px;
+		width: auto;
+	}
+	.main-timeline{
+		padding: 10px;
+	}
+	.single-skill-content{
+		padding: 20px;
+	}
+	.barWrapper{
+		width: auto;
+	}
+	.row{
+		padding: 20px;
+	}
+	.about-list-icon  ul li a {
+		cursor:pointer;
+		color: #fff;
+	}
+	.about-list-icon ul li a i {
+		margin-left: 6px;
+	}
+	.about-list-icon ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+	}
+	.about-list-icon ul li{
+		text-align: center;
+	}
+	.about-list-icon{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 90px;
+		background: #1f2c6c;
+	}
+	.single-about-img img {
+		max-width: 500px;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	
+	}
+	.nav{
+		font-size: 10px;
+	}
 
 }/*max-width:540px*/
 
